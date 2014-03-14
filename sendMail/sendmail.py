@@ -2,11 +2,11 @@ import smtplib
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
-fromaddr = 'n00bsaiboth@gmail.com'
-toaddr = 'jussi.jokinen@students.turkuamk.fi'
+fromaddr = 'mail address'
+toaddr = 'another mail address'
 text = 'this is a test message sent from python'
-username = 'n00bsaiboth'
-password = 'g00gl3-synt1984'
+username = 'username'
+password = 'password'
 msg = MIMEMultipart()
 msg['From'] = fromaddr
 msg['To'] = toaddr
